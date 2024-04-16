@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online. Desenvolvido para
+O DevLinks é um inovador agregador de links, projetado para servir como um elegante cartão de visitas online. Com seu design moderno e funcionalidade intuitiva, o DevLinks permite aos usuários compartilharem uma coleção de links importantes em um formato profissional e acessível. Além disso, o projeto oferece uma experiência personalizável com dois modos de visualização: claro e escuro, para atender às preferências individuais dos usuários.
 
 ## 🔖 Layout
 
