@@ -1,0 +1,96 @@
+<!DOCTYPE html><!--   na primeira linha está definindo um documento html  -->
+<html lang="pt-br" class=""><!--   na segunda linha está o elemento raiz, lang é um atributo que está definindo a 
+    linguagem -->
+<head><!-- É a tag responsável por ajustar configuraçoes do nosso documento que não são visívei para quem está
+     acessando nossa página  -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8"><!--   define quais os conjuntos de caracteres que iremos utilizar nessa 
+        página/permite que a página aceite caracteres especiais  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  "viewport" é tudo o que é visível em nossa página  -->
+    <!--   "width=device-width, initial-scale=1.0" adapta o tamanho da página  -->
+    <title>ROCHA.DEV</title><!--  A única coisa que é visível em nossa página  -->
+    <link rel="stylesheet" href="./style.css"><!--  associa o html com o css, o "./" diz que o arquivo está 
+        dentro da mesma pasta que o html-->
+</head>
+<body>
+
+    <div id="container">
+        <div id="profile">
+            <img src="./assets/assets/avatar.png" alt="Logotipo Rocha.dev">
+            <p>@rocha.dev_</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+
+            <button></button>
+            <span></span>
+
+        </div>
+
+        <ul>
+            <li>
+                <a href="https://www.figma.com/file/E02ZFF6El04ZNE8MlITlz5/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=10-620&mode=design&t=yQSfUUReDkz5pRpQ-0"
+                target="_blank"
+                >Acesso ao figma</a><!--Quando eu coloco uma # em um link ele gera um link que não vai a lugar algum-->
+            </li><!--è uma lista não ordenada-->
+            <!--target="_blank" serve para que o link seja aberto em uma nova aba-->
+
+            <li>
+                <a Href="https://chat.openai.com/"
+                target="_blank"
+                >Chat GPT</a>
+            </li>
+
+            <li>
+                <a href="#"
+                target="_blank"
+                >Ver meu portfólio</a>
+            </li>
+
+            <li>
+                <a href="https://app.rocketseat.com.br/discover"
+                target="_blank"
+                >Abrir o curso discover</a>
+            </li>
+        </ul><!--É onde a gente cria listas-->
+        <div id="sociallinks">
+            <a href="#" target="'_blank">
+            <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href="#" target="'_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="#" target="'_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+            <a href="#" target="'_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+
+        <footer>
+            Desenvolvido por <a href="#" target="_blank">rocha.dev_</a>
+        </footer>
+    </div><!--  <div></div> é uma caixa genérica  -->
+   
+    <script
+      type = "module"
+      src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" 
+    ></script> 
+    <script
+      nomodule
+      src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src = "./script.js"></script>
+
+</body>
+</html>
