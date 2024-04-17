@@ -6,11 +6,11 @@
 
 :root{
     --text-color: white;
+    --bg-url: url(./assets/assets/rocha.jpg);
     --stroke-color: rgba(255,255,255,0.5);
     --surface-color: rgba(255,255,255,0.1);
     --surface-color-hover: rgba(255,255,255,0.05);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --bg-url: url(./assets/assets/rocha.png);
     --switch-bg-url: url(./assets/assets/moon-stars.svg);
     
 }
@@ -22,11 +22,11 @@
     --surface-color-hover: rgba(0,0,0,0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);*/
     --text-color: white;
+    --bg-url: url(./assets/assets/rocha_claro.jpg);
     --stroke-color: rgba(255,255,255,0.5);
     --surface-color: rgba(255,255,255,0.1);
     --surface-color-hover: rgba(255,255,255,0.05);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --bg-url: url(./assets/assets/rocha_claro2.png);
     --switch-bg-url: url(./assets/assets/sun.svg);
 }
 
@@ -38,6 +38,7 @@ body {
 
     background: var(--bg-url) no-repeat top center/cover; /*Como transformar tudo em 
     uma unica propriedade*/
+    height: 100vh;
 }
 
 body * {
@@ -185,18 +186,17 @@ footer{
     text-align: center;
     font-size: 14px;
 }
-/*media queries*/
-/*
+/* media queries */
 @media (min-width: 700px) {
-   :root {
-    --bg-url:url(.\assets\assets\bg.jpg);
-   } 
+  :root {
+    --bg-url: url(./assets/assets/bg.jpg);
+  }
 
-   .light{
-    --bg-url:url(.\assets\assets\bg-light.jpg)
-   }
+  .light {
+    --bg-url: url(./assets/assets/bg-light.jpg);
+  }
 }
-*/
+
 
 /*abimation*/
 @keyframes slide-in{
